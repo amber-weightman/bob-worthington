@@ -1,0 +1,241 @@
+<!DOCTYPE HTML> 
+<html lang="en-AU">
+
+
+<!-- Mirrored from bob-worthington.org/high_fidelity/amp/amp.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 07:59:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Build Amplifier</title>
+	<meta name="keywords" content="High Fidelity Amplifier">
+	<meta name="description" content="A Website for Worthington's Workshop">
+	<link rel="stylesheet" type="text/css" href="../../style.css">
+</head>
+
+<body>
+	<main>
+		<div align="center">
+			<img src="../high_fidelity.jpg">
+		</div>
+		<h1>
+			WORTHINGTON'S WORKSHOP
+		</h1>
+		<h3>
+			High Fidelity - Low Power Stereo Amplifier
+		</h3>
+		<table width="1024px" align="center" valign="top">
+			<colgroup>
+				<col width="20%">
+				<col width="80%">
+			</colgroup>
+			<tbody align="center" valign="top">
+  				<tr>  				
+					<td align="left" valign="top">
+						<div>
+							<button192blue type="button" onclick="window.location.href='amp.html'; "/>NAVIGATION</button192blue><br>
+							<button192red  type="button" onclick="window.location.href='amp.html'; "/>TOP of Page</button192red><br>
+							<button192red  type="button" onclick="window.location.href='../high_fidelity.html'; "/>MAIN Page</button192red><br>
+							<button192red  type="button" onclick="window.location.href='../../index-2.html'; "/>HOME Page</button192red>
+							<br><br>
+							<button192blue type="button" onclick="window.location.href='amp.html'; "/>STEREO AMPLIFIER</button192blue><br>
+							<button192cyan type="button" onclick="window.location.href='#about'; "/>About the Amplifier</button192cyan><br>
+							<button192cyan type="button" onclick="window.location.href='#design'; "/>Amplifier Design</button192cyan><br>
+							<button192cyan type="button" onclick="window.location.href='#listen'; "/>Listening Tests</button192cyan><br>
+							<button192cyan type="button" onclick="window.location.href='#specs'; "/>Specifications</button192cyan><br>
+							<button192cyan type="button" onclick="window.location.href='#circuit'; "/>Circuit Diagram</button192cyan>
+						</div>
+					</td>
+   				 
+					<td align="left" valign="top">
+					
+						<a name="about"></a>
+						<heading>
+							About the Amplifier
+						</heading>
+        				<br><br>
+						<div align="center">
+							<img src="amp.jpg"><br><b>Low Power Stereo Amplifier</b>
+						</div>
+						<br>
+        				This design is for a low power version of an Electronics Australia Playmaster design, with modifications
+        				to prevent Transient Intermodulation Distortion (TID). The amplifier produces a cleaner
+        				sound than many high end amplifiers. This design would be a suitable project for a first time
+        				amplifier builder as it has been found to work correctly the first time it was tested for each of
+        				the four examples.
+						<br><br>
+						It has resulted from the frustration of trying to build the Playmaster 132, an
+						Electronics Australia designed 45 w/channel amplifier. It was supposed to become the centre
+						of my audio system, but kept blowing up, taking out the final transistors. I eventually saw the
+						light and purchased a Sansui AU-217 Amplifier. I still had an interest in amplifier circuitry and
+						design, so I set out to build an amp that would satisfy my creative needs. This circuit is the
+						result, with a lot of the design based on later Playmaster amplifiers.
+						<br><br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+							<button80red type="button" onclick="window.location.href='../high_fidelity.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='amp.html'; "/>TOP</button80red>
+      				</div>
+						<br>
+						<hr>
+						
+						<a name="design"></a>
+						<heading>						
+							Amplifier Design
+						</heading>
+        				<br>
+						<br>
+						A modern low noise high gain op-amp could be used to replace the 741, but the phono input seems to be pretty
+						good as is. Connecting leads to the rear sockets are twisted pairs of normal insulated wire to maintain frequency
+						response and balance out any hum and noise. The amplifier illustrated does not have the twin tape switching system
+						 - that belongs to the second amplifier I built for Dad. The front panel controls are: Power, Headphone socket,
+						Speaker switching, Balance, Volume, Loudness, Mono/Stereo, Tape, Input Selector - Aux, Tuner, CD, Phono.
+						<br><br>
+						The Power amplifier can be built onto a small vero board as per the photographs. This is the amplifier I use for
+						testing speakers. The differential pair of BC558 transistors can be replaced with a similar twin transistor. I
+						used two 2SA-978's reclaimed from an earlier scrapped amplifier. With the set values of resistor across the
+						biasing transistor (BC107 Vbe multiplier) there is no need for a potentiometer to adjust the bias for minimal distortion.
+						<br><br>
+						<table align="center">
+							<colgroup>
+								<col width="50%">
+								<col width="50%">
+							</colgroup>
+  							<tr> 
+    							<td align="center">
+    								<img src="pcb_f.jpg"><br><b>Amplifier PCB from the front</b>
+    							</td>
+    							<td align="center">
+    								<img src="pcb_t.jpg"><br><b>Amplifier PCB from the top</b>
+    							</td>
+    						</tr>
+						</table>
+						<br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+							<button80red type="button" onclick="window.location.href='../high_fidelity.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='amp.html'; "/>TOP</button80red>
+      				</div>
+						<br>
+						The balance control is a 1kohm Alps brand originally sourced from Tandy/Dick Smith. Replace the balance pot and
+						all the resistors with a single 390ohm resistor if you do not want a balance control. The volume control is also
+						an Alps brand tapped potentiometer sourced from Tandy/Dick Smith, but can be easily scavenged from a wrecked
+						amplifier. Notice all the electrolytic capacitors are bypassed with a 0.1uF capacitor to ensure good RF bypassing
+						and earthing.
+						<br><br>
+						Most of the components can be bought from your local Jaycar or Altronics store, or from scavanging older electronics.
+						A 15volt rms, twin winding, 2amp transformer supplies adequate current for the amp through a 10Amp bridge rectifier.
+						The preamp is driven from twin 15 volt regulators. The front panel is a glued on 'Trafelite' lable, created by a work
+						mates father that did engraving. The chassis is a rack mounting instrument case, scavenged from a clean out at work.
+						<br><br>
+						The amplifier was fun to build and remains an oft used item from when it was built 20 years ago. It is much better
+						acoustically than the Sansui AU-217, even after rebuilding, and is more musical than the higher powered NAD amplifiers.
+						It is adequately powered to drive reasonably efficient speakers to quite loud levels and is quiet, even on phono input,
+						between tracks.
+						<br><br>
+						<table align="center">
+							<colgroup>
+								<col width="0%">
+								<col width="0%">
+							</colgroup>
+  							<tr> 
+    							<td align="center">
+      							<img src="amp_f.jpg"><br><b>Amplifier front panel</b>
+    							</td>
+    							<td align="center">
+      							<img src="amp_r.jpg"><br><b>Amplifier rear panel</b>
+    							</td>
+  							</tr>
+						</table>
+						<br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+							<button80red type="button" onclick="window.location.href='../high_fidelity.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='amp.html'; "/>TOP</button80red>
+      				</div>
+						<br>
+						<hr>
+						
+						<a name="listen"></a>
+						<heading>
+							Listening to the Amplifier
+						</heading>
+        				<br>
+						<br>
+						One of the reasons for the success of the amplifier is the lack of transient intermodulation distortion (TID).
+						Initial observation on an oscilloscope saw the amplifier burst into RF oscillation on transients. This was cured
+						by lagging the Miller capacitance on the output transistors (47, 33 and 10pF capacitors) to ensure the amplifier
+						satisfied Nyquist gain/phase stability criterion. This setup now gives the amplifier a very clean sound and is
+						exceptionally sweet on transients such as cymbals. It also means the amplifier runs very cool and only requires
+						a minimalist heat sink.
+						<br><br>
+						<hr>
+
+						<a name="specs"></a>
+						<heading>
+							Amplifier Specifications
+						</heading>
+						<table width="100%" valign="top">
+							<colgroup>
+								<col width="33%">
+								<col width="66%">
+							</colgroup>
+							<tr>
+								<td align="right">
+									Specifications :
+								</td>
+								<td align="left">
+									Low Power High Fidelity Amplifier
+								</td>
+  							</tr>
+							<tr>
+								<td align="right">
+									Power Output :
+								</td>
+								<td align="left">
+									13.7W rms into 8ohms, both channels driven
+								</td>
+  							</tr>
+							<tr>
+								<td align="right">
+									Frequency Response :
+								</td>
+								<td align="left">
+									20-37,000hz at -3dB
+								</td>
+  							</tr>
+						</table>
+						<br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+							<button80red type="button" onclick="window.location.href='../high_fidelity.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='amp.html'; "/>TOP</button80red>
+      				</div>
+						<br>
+						<hr>
+						
+						<a name="circuit"></a>
+						<heading>
+							Amplifier Circuit Diagrams
+						</heading>
+      				<div align="center">
+      					<img src="pre_amp.jpg"><br><br><b>Phono Preamplifier, Input Selector and Volume/Loudness Control</b>
+      					<br><br>
+							<img src="pwr_amp.jpg"><br><br><b>Power Amplifier and Balance Control</b>
+							<br><br>
+							<img src="pwr_sply.jpg"><br><br><b>Power Supply for Power Amplifier and Preamplifier<b>
+        				</div>
+						<br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+							<button80red type="button" onclick="window.location.href='../high_fidelity.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='amp.html'; "/>TOP</button80red>
+      				</div>
+						<br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+
+<!-- Mirrored from bob-worthington.org/high_fidelity/amp/amp.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 07:59:44 GMT -->
+</html>

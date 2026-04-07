@@ -1,0 +1,183 @@
+body{
+	font-family: Arial;
+	font-size: 16px;
+	color: blue;
+	background-color: white;
+	vertical-align: top;
+}
+
+h1{
+	color: blue;
+	font-size:32px;
+	text-align: center;
+	vertical-align: top;
+}
+
+h2{
+	color: blue;
+	font-size:28px;
+	text-align: center;
+	vertical-align: top;
+}
+
+h2l{
+	color: blue;
+	font-size:28px;
+	text-align: left;
+	vertical-align: top;
+}
+
+h3{
+	color: blue;
+	font-size:24px;
+	text-align: center;
+	vertical-align: top;
+}
+
+h3l{
+	color: blue;
+	font-size:24px;
+	text-align: left;
+	vertical-align: top;
+}
+
+heading{
+	color: blue;
+	font-weight: bold;
+	font-size:20px;
+	text-align: left;
+	vertical-align: top;
+}
+
+p{
+	text-align: left;
+	vertical-align: top;
+}
+
+div{
+	background-color: white;
+	align: left;
+}
+	
+button80red{
+	width: 80px;
+	border-radius: 9px;
+	color: white;
+	background-color: red;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+
+button80cyan{
+	width: 80px;
+	border-radius: 9px;
+	color: blue;
+	background-color: cyan;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+
+button144red{
+	width: 144px;
+	border-radius: 9px;
+	color: white;
+	background-color: red;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+
+button192blue{
+	width: 192px;
+	border-radius: 9px;
+	color: white;
+	background-color: blue;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+
+button192red{
+	width: 192px;
+	border-radius: 9px;
+	color: white;
+	background-color: red;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+
+button192cyan{
+	width: 192px;
+	border-radius: 9px;
+	color: blue;
+	background-color: cyan;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+
+button288red{
+	width: 288px;
+	border-radius: 9px;
+	color: white;
+	background-color: red;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+
+button240green{
+	width: 240px;
+	border-radius: 9px;
+	color: white;
+	background-color: green;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+
+yearbox{
+	width: 288px;
+	border-radius: 16px;
+	color: white;
+	background-color: red;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}

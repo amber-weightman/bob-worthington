@@ -1,0 +1,405 @@
+<!DOCTYPE HTML> 
+<html lang="en-AU">
+
+
+<!-- Mirrored from bob-worthington.org/rail_models/decoder/decoder.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 07:52:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Worthingtons Workshop - Rail Models - Decoder</title>
+	<meta name="keywords" content="Rail Models">
+	<meta name="description" content="A Website for Worthington's Workshop">
+	<link rel="stylesheet" type="text/css" href="../../style.css">
+</head>
+
+<body>
+	<main>
+		<div align="center">
+			<img src="../rail_models.jpg">
+		</div>
+		<h1>
+			WORTHINGTON'S WORKSHOP
+		</h1>
+		<h3>			
+			Model Railways - Decoder Installation
+		</h3>
+		<table width="1024px" align="center" valign="top">
+			<colgroup>
+				<col width="20%">
+				<col width="80%">
+			</colgroup>
+			<tbody align="center" valign="top">
+ 				<tr>
+					<td align="left" valign="top">
+						<button192blue type="button" onclick="window.location.href='decoder.html'; "/>NAVIGATION</button192blue><br>
+						<button192red  type="button" onclick="window.location.href='decoder.html'; "/>TOP of Page</button192red><br>
+						<button192red  type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN Page</button192red><br>
+						<button192red  type="button" onclick="window.location.href='../../index-2.html'; "/>HOME Page</button192red>
+						<br><br>
+						<button192blue type="button" onclick="window.location.href='rail_models.html'; "/>DECODER</button192blue><br>
+						<button192cyan type="button" onclick="window.location.href='rail_models.html#info'; "/>Information</button192cyan><br>
+						<button192cyan type="button" onclick="window.location.href='rail_models.html#specs'; "/>Specifications</button192cyan><br>
+						<button192cyan type="button" onclick="window.location.href='rail_models.html#install'; "/>Installation</button192cyan><br>
+						<button192cyan type="button" onclick="window.location.href='rail_models.html#program'; "/>Programming</button192cyan>
+					</td>
+
+					<td align="left" valign="top">
+						<a name="info"></a>
+						<heading>
+							Digital Decoders in Marklin Locomotives
+						</heading>
+						<br><br>
+						The original Marklin models used a reversing relay to change the direction of travel on their AC three rail
+						models. This project details the conversion of a Marklin Hobby model 30747 German class 218 Diesel-Hydraulic
+						locomotive to digital operation. This requires removal of the reversing relay and wiring a digital decoder
+						in its stead. The decoder is an eBay purchase of a model RTL1000 from mr_atomo in Argentina.
+						<br><br>
+						So far I have bought 16 packets, each containing four decoders, from this supplier and have found him to be a
+						helpful supplier communicating in English. The cost per packet of four decoders is $70.00US plus postage at $22US,
+						with current exchange rates approximately $130AUS. Each single decoder thus ends up at	just under $33AUS. You
+						can save money on postage by ordering multiple packets. One thing to note: postage from Argentina at reasonable
+						rates takes about four weeks for delivery, however I am happy with that.
+						<br><br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='decoder.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+  						<br>
+ 						<hr>
+
+						<a name="specs"></a>
+						<heading>
+							Specifications of the Digital Decoders
+						</heading>
+						<br><br>
+						Packet with 4 units of Decoders for Marklin Locomotives<br>
+						Compatible with AC motors like LFCM and SFCM (Marklin 3000,3003,3021,3034,3064,3078,etc)<br>
+						4 High Current Output Functions<br>
+						Can drive 1.5A motors and 1A total for functions<br>
+						Automatically Selects AC or Digital Mode<br>
+						Can be programmed with Control Unit, Mobile station I and II or Central Station I and II<br>
+						Decodes Delta and Marklin FX (MM2) protocols<br>
+						Dimensions - Length:25mm, Width:18mm, Thickness:5mm.
+						<br><br>
+						<div align="center">
+ 							<img src="circuit.jpg"><br><br>The Decoder connections and cable colours are similar to a Marklin Delta decoder.
+ 						</div>
+						<br>
+						<table width="100%">
+							<colgroup>
+								<col width="20%">
+								<col width="30%">
+								<col width="20%">
+								<col width="30%">
+							</colgroup>
+							<tbody>
+								<tr>
+ 									<td align="right">
+										<b>Colour: </b>
+									</td>
+      							<td align="left"> 
+										<b>Function</b>
+									</td>
+									<td align="right">
+										<b>Colour: </b>
+									</td>
+      							<td align="left"> 
+										<b>Function</b>
+									</td>
+								</tr>
+ 								<tr>
+									<td align="right">
+										RED: 
+									</td>
+      							<td align="left"> 
+										Pickup Shoe
+									</td>
+									<td align="right">
+										BROWN: 
+									</td>
+      							<td align="left"> 
+										Chassis (Earth)
+									</td>
+								</tr>
+ 								<tr>
+									<td align="right">
+										PURPLE: 
+									</td>
+      							<td align="left"> 
+										Function #1 (N/A)
+									</td>
+									<td align="right">
+										WHITE: 
+									</td>
+      							<td align="left"> 
+										Function #2 (N/A)
+									</td>
+								</tr>
+ 								<tr>
+									<td align="right">
+										GREY: 
+									</td>
+      							<td align="left"> 
+										Headlight - Front
+									</td>
+									<td align="right">
+										YELLOW:
+									</td>
+      							<td align="left"> 
+										Headlight - Rear
+									</td>
+								</tr>
+ 								<tr>
+									<td align="right">
+										GREEN: 
+									</td>
+      							<td align="left"> 
+										Motor - Field Coil Fwd
+									</td>
+									<td align="right">
+										BLUE: 
+									</td>
+      							<td align="left"> 
+										Motor - Field Coil Rev
+									</td>
+								</tr>
+ 								<tr>
+									<td align="right">
+										ORANGE: 
+									</td>
+      							<td align="left"> 
+										Function Common (N/A)
+									</td>
+									<td align="right">
+										BLACK: 
+									</td>
+      							<td align="left"> 
+										Motor - Common
+									</td>
+								</tr>
+ 							</tbody>
+						</table>
+						<br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='decoder.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+ 						<br>
+ 						<hr>
+
+						<a name="install"></a>
+						<heading>
+							Installation of the Decoder
+						</heading>
+						<br><br>
+						<b>Requirements</b><br>
+						Locomotive: Any Marklin model locomotive running an AC reversing relay<br>
+        				Decoder: Marklin compatible four function decoder as noted above<br>
+        				Adhesive: Double Sided Foam Tape (available at Woolworths)
+						<br><br>
+						<table width="100%">
+							<colgroup>
+								<col width="350px">
+								<col width="100%">
+							</colgroup>
+							<tbody>
+ 								<tr> 
+									<td valign="top"> 
+										<img src="start.jpg">
+									</td>
+    								<td align="left" valign="top"> 
+      								<b>The model as supplied:</b>
+      								<br>
+      								This is a Marklin 'Hobby' 30747 model of the DB Class 218 Diesel Hydraulic Locomotive.
+      								As supplied under AC control, the headlights do not change with the direction of travel.
+      								In the foreground is the model RTL1000 decoder to be fitted to the locomotive.
+    									<br><br>   									
+									</td>
+ 								<tr> 
+    								<td valign="top">
+    									<img src="body.jpg">
+    								</td>
+									<td align="left" valign="top">
+										<b>Removing the body to see the chassis:</b><br>
+										After undoing a small screw on the top of the body, you can remove the body and see the
+										components mounted on the chassis. The motor is on the left and the Reversing Relay is
+										to the right of centre.
+    									<br><br>   									
+      							</td>
+ 								</tr>
+ 								<tr> 
+    								<td valign="top"> 
+										<img src="reverser.jpg">
+										<br>
+										<br>
+									</td>
+    								<td align="left" valign="top"> 
+      								<b>Removing the Reversing Relay:</b>
+      								<br>
+      								Unscrew and remove the horizontal mounting screw to detach the Reversing Relay from its
+      								mounting pillar and gently slide the relay out. A plastic insulating foot may also be
+      								removed if included.
+									</td>
+ 								</tr>
+ 							</tbody>
+ 						</table>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='decoder.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+						<br>
+						<table width="100%">
+							<colgroup>
+								<col width="350px">
+								<col width="100%">
+							</colgroup>
+							<tbody>
+ 								<tr> 
+    								<td valign="top"> 
+										<img src="leads.jpg">
+									</td>
+    								<td align="left" valign="top"> 
+      								<b>Removing the present wiring and creating a Common Earth point:</b>
+      								<br>
+      								Gently unsolder all the attached leads except the longest lead on each of the two headlamps
+      								and the lead from the pickup shoe that protrudes through the chassis. Remove the Reversing
+      								Relay, its mounting screw and the Choke (coil on end of lead in foreground) and save for
+      								possible future use. File the surface of the Reversing Relay Mounting Pedestal to provide a
+      								clean electrical contact. Drill and Tap a 3mm hole in the pillar with a drill and tap set.
+      								Mount a solder lug and spring washer on the pedestal with a 3mm screw. This becomes the
+      								Common Earth point. This is visible in the next photo.
+    									<br><br>   									
+									</td>
+ 								</tr>
+ 								<tr> 
+    								<td valign="top"> 
+      								<img src="decoder.jpg">
+									</td>
+    								<td align="left"> 
+      								<b>Trimming the leads and mounting the Decoder:</b>
+      								<br>
+      								Cut the excess leads as close as possible to the shrink wrap around the motor. On a diesel I cut the Purple
+      								and White 'Function' leads and the Orange 'Function Common' lead. On a Steam Loco you may also cut the Yellow
+      								'Headlight Rear' lead if there is no rear headlight. Examine the upper surface of the chassis to find a flat
+      								area that will take to double sided tape. You may need to align the Decoder in a way that best utilises the
+      								available mounting space and the dispersal of the leads. Apply two layers of the tape with the non stick liner
+      								removed to the flat area on the bottom of the Decoder. You may require Super Glue to get effective adhesion.
+    									<br><br>   									
+									</td>
+ 								</tr>
+ 							</tbody>
+ 						</table>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='decoder.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+						<br>
+						<table width="100%">
+							<colgroup>
+								<col width="350px">
+								<col width="100%">
+							</colgroup>
+							<tbody>
+ 								<tr> 
+    								<td valign="top">
+    									<img src="mount.jpg">
+    								</td>
+    								<td align="left" valign="top"> 
+      								<b>Test run of the lead alignment and wiring the Common Earth:</b>
+      								<br>
+      								Do a test layout of the lead placement to ascertain lead lengths and routing possibilities. Cut the leads with
+      								approx 1 to 2cm to spare in length, Remove the last 2mm of insulation from the leads and twist then tin them in
+      								preparation for soldering. Join the two long headlight leads with the Brown chassis lead and solder it to the
+      								Common Earth solder lug. There is no need to remove the interference reducing capacitor from the motor.
+    									<br><br>
+									</td>
+ 								</tr>
+ 								<tr> 
+    								<td valign="top">
+    									<img src="wire.jpg">
+    								</td>
+    								<td align="left"> 
+    									<b>Final Wiring of the Locomotive:</b><br>
+    									Solder the Red lead to the Pickup Shoe lead on the solder land provided. Attach the Black, Green and Blue
+    									(nearest the commutator) leads to the motor. If the headlights and direction clash, swap the Blue and Green
+    									leads. Attach the Grey and Yellow leads to the appropriate headlights.
+    									<br><br>
+    								</td>
+ 								</tr>
+ 								<tr> 
+    								<td valign="top"> 
+										<img src="reassemble.jpg">
+									</td>
+    								<td align="left" valign="top"> 
+    									<b>Reassembly of the Locomotive:</b><br>
+    									Check no leads are out of place and replace the body. This decoder is set up for providing headlight changeover
+    									in the direction of travel. The headlights are switched off/on by Function #0. Swiss locos may require a diode
+    									matrix to achieve realistic results with their unique directional lamp systems.
+    									<br><br>   									
+									</td>
+ 								</tr>
+ 							</tbody>
+ 						</table>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='decoder.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+ 						<br>
+ 						<hr>
+
+						<a name="program"></a>
+						<heading>
+							Programming the Locomotive using the Mobile Station
+						</heading>
+						<br>
+						<p>
+							01. Press [STOP]. This is indicated by 'STOP' appearing on the top of the display and cutting the track power.<br>
+							02. Place the locomotive on the track.<br>
+							03. Press [ESC] to bring up the Menus.<br>
+							04. Dial in 'NEW LOC' and press [OK].<br>
+							05. Dial in 'DATABASE' and press [OK].<br>
+							06. Dial in 'M 36330' and press [OK]. The display will show 'EE 3/3' - a small Swiss electric shunter.<br>
+							07. Press [STOP]. This is indicated by 'STOP' disappearing from the top of the display. The track power is now on.<br>
+							08. Press [ESC] to bring up the Menus.<br>
+							09. Dial in 'EDIT LOC' and press [OK].<br>
+							10. Dial in 'ADDRESS' and press [OK].<br>
+							12. Dial in 'A 18' as it is the nearest number for a class 218 loco. You could also use 'A 72' for the Delta Diesel number.<br>
+							13. Display will show 'PROG LOC?' then press [OK].<br>
+							14. The headlights will alternatively flicker for a couple of seconds and the display will return to the normal running mode.
+						</p>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='decoder.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+						<p>
+							The loco will hum slightly at low speeds - that is normal. The headlights will change over with direction and can be turned off/on
+							with the F0 Headlight button. When you next turn the Mobile Station on, the Marklin 36330 EE 3/3 remains with the incorrect address.
+							If required it can be corrected back to the correct address 33 with the above process. I usually operate the converted locos via
+							their 'ADDRESS' selection, or try and discover the 'DATABASE' number of the modern digital equivalent locomotive.
+						</p>
+						<div align="center">
+ 							<img src="finished.jpg"><br>
+ 							<b>The Digital Locomotive on my test track with headlights lit<br>
+ 							whilst the loco is stationary - only possible with digital</b>
+ 						</div>
+ 						<br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='decoder.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+ 						<br>
+        			</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+
+<!-- Mirrored from bob-worthington.org/rail_models/decoder/decoder.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 07:52:39 GMT -->
+</html>

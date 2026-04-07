@@ -1,0 +1,177 @@
+<!DOCTYPE HTML> 
+<html lang="en-AU">
+
+
+<!-- Mirrored from bob-worthington.org/rail_models/electronic/electronic.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 07:52:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Worthingtons Workshop - Rail Models - Electronic Reverser</title>
+	<meta name="keywords" content="Rail Models">
+	<meta name="description" content="A Website for Worthington's Workshop">
+	<link rel="stylesheet" type="text/css" href="../../style.css">
+</head>
+
+<body>
+	<main>
+		<div align="center">
+			<img src="../rail_models.jpg">
+		</div>
+		<h1>
+			WORTHINGTON'S WORKSHOP
+		</h1>
+		<h3>
+			Model Railways - Electronic Reverser
+		</h3>
+		<table width="1024px" align="center" valign="top">
+			<colgroup>
+				<col width="20%">
+				<col width="80%">
+			</colgroup>
+			<tbody align="center" valign="top">
+ 				<tr>
+					<td align="left" valign="top">
+						<button192blue type="button" onclick="window.location.href='electronic.html'; "/>NAVIGATION</button192blue><br>
+						<button192red  type="button" onclick="window.location.href='electronic.html'; "/>TOP of Page</button192red><br>
+						<button192red  type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN Page</button192red><br>
+						<button192red  type="button" onclick="window.location.href='../../index-2.html'; "/>HOME Page</button192red>
+						<br><br>
+						<button192blue type="button" onclick="window.location.href='electronic.html'; "/>REVERSER</button192blue><br>
+						<button192cyan type="button" onclick="window.location.href='#convert'; "/>Convert</button192cyan><br>
+						<button192cyan type="button" onclick="window.location.href='#connections'; "/>Connections</button192cyan><br>
+						<button192cyan type="button" onclick="window.location.href='#operation'; "/>Operation</button192cyan><br>
+						<button192cyan type="button" onclick="window.location.href='#assembly'; "/>Assembly</button192cyan>
+					</td>
+					
+					<td align="left" valign="top">
+						<a name="convert"></a>
+						<heading>
+							Convert A Marklin Locomotive To Electronic Reversing
+						</heading>
+						<br><br>
+ 						<table width="100%">
+							<colgroup>
+								<col width="25%">
+								<col width="75%">
+							</colgroup>
+							<tbody>
+ 								<tr>
+									<td align="right" valign="top">
+										<b>Input Voltage:<b><br>
+										<b>Output Voltage:<b><br>
+										<b>Output Current:<b>
+									</td>
+									<td align="left" valign="top">
+										AC: 4-16V rms for drive, 24V rms for reversing<br>
+										DC: 2-22V peak DC for drive, 36 volts DC for reversing<br>
+										1.0 Amp capability
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+ 						<table width="100%">
+							<colgroup>
+								<col width="50%">
+								<col width="0%">
+								<col width="0%">
+								<col width="50%">
+							</colgroup>
+							<tbody>
+ 								<tr>
+									<td></td>
+									<td align="center">
+										<img src="board1.jpg"><br><b>Electronic Reverser - top</b>
+									</td>
+									<td align="center" valign="top">
+										<img src="board2.jpg"><br><b>Electronic Reverser - bottom</b>
+									</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+ 						<hr>
+
+						<a name="connections"></a>
+						<heading>
+							Connection To The Electronic Reverser
+						</heading>
+						<br>
+ 						<div align="center">
+ 							<img src="connections.jpg">
+ 						</div>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='electronic.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+  						<br>
+ 						<hr>
+						
+						<a name="operation"></a>
+						<heading>
+							Operation Of The Electronic Reverser
+						</heading>
+						<br><br>
+						<b>CAUTION:</b> The mechanical reversing relay and the power transistor on the Electronic Reverser MUST be
+						isolated from the chassis as they are both at different potentials to the chassis. The Relay requires fitting
+						of an insulating plastic shoe and a plastic mounting screw. These are provided from the previous mounting of
+						the relay. The Electronic Reverser requires mounting using a top hat insulator and a mica or fibre sheet
+						insulator to mount the power transistor as per normal practice. The units were procured when I converted several
+						Electronic locos to digital operation. I had a couple of left over locos with poor performance in that the loco
+						low speed could not be bought down to a reasonable level. The Electronic Reverser allows crisp performance of
+						the reversing relay, giving no reversing over-run and a much need improvement in low speed running.
+						<br><br>
+						As the circuit is Marklin proprietary I will not show a circuit diagram. A tracing of the PCB gave an inkling of
+						the circuit, but not the component values of some of the components. Basically the circuit input from the track
+						is via the 'Shoe' and 'Motor Earth' (Chassis) connections. This is goes through a rectifier bridge consisting of
+						four EM401 power diodes. This powers two transistors. The low power one detects the 24V AC reverse pulse which
+						switches off the motor supply voltage to the power transistor and actuates the Reversing Relay. The circuit for
+						this is very similar to the AC Conversion Project on a previous page. The power transistor drives the common motor
+						connection with full wave rectified AC, returning via one of the field coil taps via the Reversing Relay contacts.
+						<br><br>
+						The headlights are connected directly to the Reversing Relay contacts and return via the previous chassis connection.
+						There is no need to isolate the globes, as everything seems to work correctly. The motor field coils are fed from
+						the same source via a couple of series connected diodes to reduce the minimum voltage available to the motor. This
+						is what gives the loco superior low speed performance. On thing I noted was that on one of the PCB's the diodes for
+						the motor were reversed, so that the connections to the headlights and the motor field coils had to be swapped.
+						This becomes obvious when the headlights change over with reverse, but the motor does not run in either direction.
+						<br><br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='electronic.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+  						<br>
+ 						<hr>
+						
+						<a name="assembly"></a>
+						<heading>
+							Assembly Of The Electronic Reverser
+						</heading>
+						<br><br>
+ 						<div align="center">
+ 							<img src="assembly.jpg">
+ 						</div>
+						<br>
+						In the above image you can see the small Electronic Reverser PCB (2.0 * 1.2cm) fitted between the Reversing Relay
+						and the motor. Note the insulating mat between the power transistor and the chassis. For improved reliability
+						connect a lead between the motor earth and the chassis. What I have now are three previously deficient locos that
+						now have superior low speed running capabilities and well triggered reversing capabilities. Whilst not digital,
+						they are available for train club exhibition running or for use on a spare or a childs layout.
+						<br><br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='electronic.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+  						<br>
+        			</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+
+<!-- Mirrored from bob-worthington.org/rail_models/electronic/electronic.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 07:52:43 GMT -->
+</html>

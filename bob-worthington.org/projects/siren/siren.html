@@ -1,0 +1,181 @@
+<!DOCTYPE HTML> 
+<html lang="en-AU">
+
+
+<!-- Mirrored from bob-worthington.org/projects/siren/siren.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 08:01:11 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Police Siren</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="keywords" content="Citroën">
+	<meta name="description" content="A Website for Worthington's Workshop">
+	<link rel="stylesheet" type="text/css" href="../../style.css">
+</head>
+
+<body>
+	<main>
+		<div align="center">
+			<img src="../projects.jpg">
+		</div>
+		<h1>
+			WORTHINGTON'S WORKSHOP
+		</h1>
+		<h3>
+			Project - Build a Realistic French Police Car Siren
+		</h3>
+		<table width="1024px" align="center" valign="top">
+			<colgroup>
+				<col width="20%">
+				<col width="80%">
+			</colgroup>
+			<tbody align="center" valign="top">
+				<tr>
+					<td align="center" valign="top">
+						<div>
+							<button192blue type="button" onclick="window.location.href='plane.html'; "/>NAVIGATION</button192blue><br>
+							<button192red  type="button" onclick="window.location.href='plane.html'; "/>TOP of Page</button192red><br>
+							<button192red  type="button" onclick="window.location.href='../projects.html'; "/>MAIN Page</button192red><br>
+							<button192red  type="button" onclick="window.location.href='../../index-2.html'; "/>HOME Page</button192red>
+							<br><br>
+							<button192blue type="button" onclick="window.location.href='siren.html'; "/>POLICE SIREN</button192blue><br>
+							<button192cyan type="button" onclick="window.location.href='#about'; "/>About</button192cyan><br>
+							<button192cyan type="button" onclick="window.location.href='#circuit'; "/>Circuit</button192cyan><br>
+							<button192cyan type="button" onclick="window.location.href='#parts'; "/>Parts</button192cyan><br>
+							<button192cyan type="button" onclick="window.location.href='#speaker'; "/>Loudspeakers</button192cyan><br>
+							<button192cyan type="button" onclick="window.location.href='#build'; "/>Final Build</button192cyan>
+      				</div>
+					</td>
+										
+					<td align="left" valign="top">
+						<a name="circuit"></a>
+						<heading>
+							About The Project
+						</heading>
+						<br><br>
+						<div align="center">
+							<img src="gendarme.jpg"><br><b>French Gendarmerie Citroen GS Pursuit Vehicle</b>
+						</div>
+						<br>
+						This began as a means to provide an authentic French Police siren sound to the Citroën GS French
+						Police pursuit vehicle being modelled by car club member Frank Connelley, as featured in the June
+						2020 issue of The Chevrons - the magazine of the Citroen Car Club of NSW. The circuit is basically
+						a NE555 IC oscillator, producing a symmetrical square wave at 1Hz. The output of the first
+						oscillator frequency modulates the second NE555 IC audio oscillator to switch between a low and
+						high tone at the 1 Hz rate. The output of the second oscillator is then amplified to about 0.5 watts
+						by the LM386 audio amplifer IC.
+						<br><br>
+						To maintain constant output independent of battery voltage, a 7809 voltage regulator IC supplies 9
+						volts to the circuit from the 11-15 volt input from the car battery. There is an OFF-ON switch to
+						disconnect the unit conveniently when not in use, rather than requiring it to be unplugged from the
+						car cigarette lighter. A bright blue LED flashes in sympathy with the high tone, indicating French
+						police presence. The audio output is via a 3.5mm phono plug connecting to a loudspeaker.
+						<br><br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='siren.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../projects.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+						</div>
+						<br>
+						<hr>
+
+						<a name="circuit"></a>
+						<heading>
+							Circuit
+						</heading>
+						<br><br>
+						<div align="center">
+							<img src="circuit.jpg"><br><b>Siren Circuit</b>
+						</div>
+						<br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='siren.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../projects.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+						</div>
+						<br>
+						<hr>
+
+						<a name="parts"></a>
+						<heading>
+							Parts
+						</heading>
+						<br><br>
+						All the components were sourced from my local friendly Jaycar Electronics store.
+						<br><br>
+						<b>The Main Components:</b>
+						<br>
+						Case: HB-6006 - Snap Fit ABS Enclosure with flanges cut off.<br>
+						PCB: HP9556 - Ultra Mini with notches cut in side to take case clips.<br>
+						Standoffs: HB-0900 10mm for PCB<br>
+						Cigarette Lighter Plug: PP-1995<br>
+						NE555 Timer IC: ZL-3555 (2*req'd)<br>
+						LM386 Audio IC: ZL3386<br>
+						7809 Regulator IC: ZV-1509
+						<br><br>
+						And of course if you are lazy, Jaycar produce a similar device as a kit, using transistors instead of the first IC and having no audio amplifier or case. The PCB is much larger and the resulting unit is not so loud. It is in their catalogue under the Short Circuits Kits as SC2 Project - Hee-Haw Siren with Flashing Light: KJ-8204 with separate instructions as KJ-8205.
+						<br><br>
+						<div align="center">
+							<img src="siren%201.jpg">
+							<br>
+							<b>Components fitted to PCB</b>
+						</div>
+						<br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='siren.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../projects.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+						</div>
+						<br>
+						<hr>
+
+						<a name="speaker"></a>
+						<heading>
+							Loudspeakers
+						</heading>
+						<br><br>
+						The speaker can be replaced with a horn speaker, at the risk of excessive sound levels. The 75mm
+						speaker supplied with the unit is more than adequate for entertainment purposes. I found an
+						interesting trick with a sawn off top half section from a 2 litre fruit juice plastic bottle. Cut a 30mm
+						diameter hole in the lid and carefully superglue a 40mm diam miniature cone loudspeaker to the
+						outside of the lid. Screw the lid back onto the top of the juice bottle. Voila - just have just made an
+						el-cheapo horn loudspeaker that is quite loud.
+						<br><br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='siren.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../projects.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+						</div>
+						<br>
+						<hr>
+
+						<a name="build"></a>
+						<heading>
+							Final Build
+						</heading>
+						<br><br>
+						<div align="center">
+							<img src="siren%202.jpg">
+							<img src="siren%203.jpg">
+							<br>
+							<b>External Views of the case.</b>
+							<br><br>
+							<img src="siren%204.jpg">
+							<img src="siren%205.jpg">
+							<br>
+							<b>Connections to the case.</b>
+						</div>
+						<br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='siren.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../projects.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
+</body>
+
+<!-- Mirrored from bob-worthington.org/projects/siren/siren.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 08:01:20 GMT -->
+</html> 

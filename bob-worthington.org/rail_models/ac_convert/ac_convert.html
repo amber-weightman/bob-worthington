@@ -1,0 +1,168 @@
+<!DOCTYPE HTML> 
+<html lang="en-AU">
+
+
+<!-- Mirrored from bob-worthington.org/rail_models/ac_convert/ac_convert.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 07:52:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Worthingtons Workshop - Rail Models - Sr2 Model</title>
+	<meta name="keywords" content="Rail Models">
+	<meta name="description" content="A Website for Worthington's Workshop">
+	<link rel="stylesheet" type="text/css" href="../../style.css">
+</head>
+
+<body>
+	<main>
+		<div align="center">
+			<img src="../rail_models.jpg">
+		</div>
+		<h1>
+			WORTHINGTON'S WORKSHOP
+		</h1>
+		<h3>
+			Model Railways - AC Conversion
+		</h3>
+		<table width="1024px" align="center" valign="top">
+			<colgroup>
+				<col width="20%">
+				<col width="80%">
+			</colgroup>
+			<tbody align="center" valign="top">
+ 				<tr>
+					<td align="left" valign="top">
+						<button192blue type="button" onclick="window.location.href='sr2.html'; "/>NAVIGATION</button192blue><br>
+						<button192red  type="button" onclick="window.location.href='ac_convert.html'; "/>TOP of Page</button192red><br>
+						<button192red  type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN Page</button192red><br>
+						<button192red  type="button" onclick="window.location.href='../../index-2.html'; "/>HOME Page</button192red>
+						<br><br>
+						<button192blue type="button" onclick="window.location.href='sr2.html'; "/>AC CONVERSION</button192blue><br>
+						<button192cyan type="button" onclick="window.location.href='#specs'; "/>Specifications</button192cyan><br>
+						<button192cyan type="button" onclick="window.location.href='#operation'; "/>Operation</button192cyan><br>
+						<button192cyan type="button" onclick="window.location.href='#circuit'; "/>Circuit Diagram</button192cyan><br>
+						<button192cyan type="button" onclick="window.location.href='#board'; "/>Circuit Board</button192cyan>
+					</td>
+					
+					<td align="left" valign="top">
+						<a name="specs"></a>
+						<heading>
+							Specifications for AC Conversion
+						</heading>
+						<br><br>
+ 						<div align="center">
+ 							<img src="lima%2042213%20ac.jpg"><br><b>Lima 42213 locomotive with added pickup shoe</b>
+ 						</div>
+ 						<br>
+ 						<table width="100%">
+							<colgroup>
+								<col width="30%">
+								<col width="70%">
+							</colgroup>
+							<tbody>
+ 								<tr>
+									<td align="right" valign="top">
+										Input Voltage:<br>
+										Output Voltage:<br>
+										Output Current:<br>
+									</td>
+									<td align="left" valign="top">
+										4 - 16 volts rms AC<br>
+										3 - 12 volts DC<br>
+										1.0 Amp capability<br>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='ac_convert.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+  						<br>
+ 						<hr>
+						
+						<a name="operation"></a>
+						<heading>
+							Operation of the AC Conversion Module
+						</heading>
+						<br><br>
+						The converter takes the 4 to 16 volts AC available at the rails and rectifies it in the EM401 rectifier
+						bridge to become a single phase AC current of 5.6 to 22.4 volts peak. This current is fed via one of the
+						Reversing Relay contacts to one of the EM401's in the switch circuit, through the motor and then through
+						the opposite TIP29 transistor to return to the rectifier bridge.
+						<br><br>
+						When the reversing pulse is applied, the 24 volts AC pulse is rectified by the rectifier bridge to become
+						a 33.6 volt single phase voltage appearing across the output of the rectifier bridge. The 24 volt zener
+						diode subtracts from this voltage to appear as a 9.6 volt pulse across the 1K5 resistor. This voltage turns
+						on the BC557 transistor, which drives the two BC547 transistors to turn off both TIP29 transistors, which
+						then ensures the motor is turned off during the switching pulse. The BD135 transistor is also switched on
+						during this time to flip the Marklin reversing relay to the opposite contact, and thus drive the motor in
+						the opposite direction via the alternate EM401 and TIP29 pair.
+						<br><br>
+						The circuit works perfectly with the Lima motors, although the locomotive has the same performance as the
+						original DC unit, and would still not pull the skin off a rice pudding. The circuit should be suitable for
+						any normal HO motor taking up to 3/4 Amp. The present setup will be fitted to a Hornby tender to convert a
+						GWR locomotive.
+						<br><br>
+						The only other work required is to fit a Marklin pickup shoe under the loco bogies. This was accomplished
+						on a Lima 44 class using a folded brass insert with plastic sheet glued in as axle insulators. The photos
+						show the circuit built up on a 72mm by 25mm piece of veroboard. I would now suggest mounting the Marklin
+						reversing relay separately to the circuit board, as this will enable better fitment in the Lima bodies
+						<br><br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='ac_convert.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+  						<br>
+ 						<hr>
+						
+						<a name="circuit"></a>
+						<heading>Circuit diagram of the AC Conversion module</heading>
+						<br>
+ 						<div align="center">
+ 							<img src="circuit.jpg">
+ 						</div>
+						
+						<a name="board"></a>
+						<heading>
+							Circuit board of the AC Conversion module
+						</heading>
+						<br><br>
+ 						<table width="100%">
+							<colgroup>
+								<col width="50%">
+								<col width="0%">
+								<col width="0%">
+								<col width="50%">
+							</colgroup>
+							<tbody>
+ 								<tr>
+									<td></td>
+									<td align="center">
+										<img src="pcb_top.jpg"><br><b>Circuit Board - top</b>
+									</td>
+									<td align="center" valign="top">
+										<img src="pcb_bottom.jpg"><br><b>Circuit Board - bottom</b>
+									</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='ac_convert.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../rail_models.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+  						<br>
+						
+        			</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+
+<!-- Mirrored from bob-worthington.org/rail_models/ac_convert/ac_convert.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 07:52:49 GMT -->
+</html>

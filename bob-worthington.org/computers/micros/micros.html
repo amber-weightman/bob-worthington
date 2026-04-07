@@ -1,0 +1,472 @@
+<!DOCTYPE HTML> 
+<html lang="en-AU">
+
+
+<!-- Mirrored from bob-worthington.org/computers/micros/micros.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 07:59:11 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Worthington's Workshop - Computers - Micros</title>
+	<meta name="keywords" content="Computers, Microcontrollers, Microcomputers">
+	<meta name="description" content="A Website for Worthington's Workshop">
+	<link rel="stylesheet" type="text/css" href="../../style.css">
+</head>
+
+<body>
+	<main>
+		<div align="center">
+			<img src="../computers.jpg">
+		</div>
+		<h1>
+			Worthington's Workshop
+		</h1>
+		<h3>
+			Computers - Microcontrollers and  Microcomputers
+		</h3>
+		<table width="1024px" align="center" valign="top">
+			<colgroup>
+				<col width="20%">
+				<col width="80%">
+			</colgroup>
+			<tbody align="center" valign="top">
+  				<tr>  				
+					<td align="left" valign="top">
+						<div>
+							<button192blue type="button" onclick="window.location.href='micros.html'; "/>NAVIGATION</button192blue><br>
+							<button192red  type="button" onclick="window.location.href='micros.html'; "/>TOP of Page</button192red><br>
+							<button192red  type="button" onclick="window.location.href='../computers.html'; "/>MAIN Page</button192red><br>
+							<button192red  type="button" onclick="window.location.href='../../index-2.html'; "/>HOME Page</button192red>
+							<br><br>
+							<button192blue type="button" onclick="window.location.href='micros.html'; "/>MICROS</button192blue><br>
+							<button192cyan type="button" onclick="window.location.href='#about'; "/>About Micros</button192cyan><br>
+							<button192cyan type="button" onclick="window.location.href='#pic8'; "/>PIC 8bit uController</button192cyan><br>
+							<button192cyan type="button" onclick="window.location.href='#arduino'; "/>Arduino uController</button192cyan><br>
+							<button192cyan type="button" onclick="window.location.href='#maximite'; "/>Maximite Micro</button192cyan><br>
+							<button192cyan type="button" onclick="window.location.href='#raspberry'; "/>Raspberry Pi Micro</button192cyan>
+						</div>
+					</td>
+   				 
+					<td align="left" valign="top">
+						<a name="about"></a>
+						<heading>
+							About Microcomputers and Microcontrollers
+						</heading>
+        				<br><br>
+						A microcontroller is a programmable microchip capable of replacing a group of discrete logic devices. The classic version of
+						this would be the PIC micro, which has an externally programmable EEPROM to store a program which determines the functionality
+						of the chip. They contain a CPU, memory and an internal logic set by the operation of the loaded program to create a simple
+						computer operation.
+						<br><br>
+						Microcontrollers are programmed in Assembly Language and typically have no extra Input/Output capability and limited memory,
+						making them useful for simple machine control operations. A typical application would be the pressbutton windows in a car.
+						One significant detail is the inability to use an operating system or operating language. However, as microcontrollers have
+						developed, the later versions are bigger and sophisticated enough to handle an operating system, and the system then becomes
+						a Microcomputer.
+						<br><br>
+						<b>Microcomputers</b>
+						<br><br>
+						A microcomputer contains at its heart a microcomputer CPU chip and extra chips for Input/Output management (ie keyboard and
+						display). The later versions have this contained in the one chip, making for a Single Chip Micro. They typically emulate most
+						of the functions of a desktop PC and use an operating system, such as Extended Basic, Linux or Unix.
+						<br><br>
+						Microcomputers are programmed in a high level computer language such as Basic, C or Python. The classic microcomputer was the
+						venerable Commodore 64 of decades ago. New microcomputers seek to emulate the C=64 experience, as the opportunity for kids to
+						hack a computer disappeared with the advent of the family Windows PC. The new micros have a mission to teach programming
+						skills and enable creation of individual software and hardware projects, until now almost a dying art.
+						<br><br>
+						<b>Working with Micros</b>
+						<br><br>
+						The two microcontrollers featured (PIC chip and the Arduino) are useful for logic
+						development, such as the replacement for logic arrays made from discrete logic chips. The
+						microcomputers (Micromite and Raspberry Pi) are capable of mounting an operating system
+						and take computing to a new level. I found the Micromite running RetroBSD Unix to be an
+						interesting challenge as I spend substantial time playing with the setup. It is a great way to
+						learn Unix (and Linux) system calls via the command line shell. With the Micromite running
+						the regular MMBasic a replacement can be found for the venerable Commodore 64 running
+						games or self developed software. The Raspberry Pi takes on the function of a simplified
+						version of a desktop PC as it has the performance of a Pentium II CPU with a modern OS and
+						software. It would see great usage as an educational machine or a second family PC.
+						<br><br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='micros.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../computers.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+						<br>
+						<hr>
+						
+						<a name="pic8"></a>
+						<heading>
+							The PIC 8 bit Microcontroller
+						</heading>
+        				<br><br>
+						<div align="center">
+							<img src="pic-ir.jpg"><br><b>The PIC Infrared Receiver Project</b>
+						</div>
+						<br>
+						<b>Overview</b>
+						<br><br>
+						Microchip Technology, an American company, developed a family of Harvard architecture microcontrollers derived from General
+						Instrument's PIC1650 Peripheral Interface Controller. Microchip PICs have developed a following due to cost, availability,
+						a large hobby and professional user base, extensive application notes, free/low cost development tools and simplified
+						programming systems. The PIC was upgraded with internal EPROM to produce a programmable controller. In 1993, the 16C84 PIC
+						was introduced with an electrically erasable EEPROM memory, enabling reduced pricing from the quartz windowed EPROM PICs.
+						PICs are now available with flash program memory from 256 to 64k words and on-board peripherals.
+						<br><br>
+						<b>Specifications</b>
+						<br><br>
+						A PIC 8 bit micro is bought as a single chip for under $10.00, requiring self assembly onto a suitable printed circuit board.
+						Typical models used would be the 16F84A and the 16F628A. Specifications:<br>
+						PIC 16F84A - 1K Program Memory, 68 bytes Data Memory, 64 bytes EEPROM, 1 timer, external clock to 20MHz.<br>
+						PIC 16F628A - 2K Program Memory, 224 bytes Data Memory, 128 bytes EEPROM, 3 timers, hardware PWM, Onboard 4 MHz/37 kHz RC oscillator.
+						<br><br>
+						<b>Support</b>
+						<br><br>
+						Microchip provide a complete development system for the PIC microchips, known as the MPLAB X Integrated Development Environment
+						(IDE), running under Java so that it is compatible with Windows, Mac OS-X and Linux/Unix. It is free and contains an Editor,
+						Assembler, Makefile and C Compilers. The C Compilers are available as a stand alone package. Most PIC development is done in Assembler.
+						Some books recommend using a Basic compiler priced at $100-$150. This is far too expensive and is not required.
+						<br><br>
+						<b>Linux Resources</b>
+						<br><br>
+						MPLAB X IDE Download: <a href="http://www.microchip.com/pagehandler/en-us/family/mplabx/" target=" blank">MPLAB Download</a><br>
+						IDE Geany: <a href="http://www.geany.org/" target=" blank">Geany Homepage</a>
+						This fast and lightweight IDE is available in Linux/Unix repositories.<br>
+						Assembler gpasm: <a href="http://gputils.sourceforge.net/" target=" blank">gputils Homepage</a>
+						This Assembler is part of the gputils package and is available in Linux/Unix repositories.<br>
+						Manual: <a href="http://gputils.sourceforge.net/gputils.pdf" target=" blank">gpasm Manual</a>
+						It integrates into the Geany IDE when set as the Assembler under [Build/Set Build Commands/].<br>
+						C Compiler sdcc: <a href="http://sdcc.sourceforge.net/" target=" blank">Small Devices C Compiler Homepage</a>
+						Also integrates into Geany as the Compiler.<br>
+						I use Geany and gpasm under Ubuntu Linux, which is lightweight, fast and easy to understand.
+						<br><br>
+						<b>Windows Resources</b>
+						<br><br>
+						MPLAB X IDE Download: <a href="http://www.microchip.com/pagehandler/en-us/family/mplabx/" target=" blank">MPLAB Download</a><br>
+						MPLAB X Manual Download: <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/52027B.pdf" target=" blank">MPLAB Manual Download (PDF)</a><br>
+						C Compiler Download: <a href="http://www.microchip.com/pagehandler/en_us/devtools/mplabxc/" target=" blank">C Compiler Download</a>
+						<br><br>
+						<b>Programmers</b>
+						<br><br>
+						Please Note: Current programmers are only available under DOS or Windows operating systems:<br>
+						PIC Programmer RS-232 port: <a href="http://www.jaycar.com.au/productView.asp?ID=XC4402" target=" blank">Velleman K8048 kit</a><br>
+						PIC Programmer RS-232 port: <a href="http://www.jaycar.com.au/productView.asp?ID=KC5467" target=" blank">Silicon Chip, May 2008</a><br>
+						PIC Programmer DIY kits: <a href="http://www.ozitronics.com/docs/picprogrammers.pdf" target=" blank">Silicon Chip, April 2003</a><br>
+						PIC Programmers USB port: <a href="http://www.kitsrus.com/pic.html" target=" blank">Kits'R'Us</a><br>
+						I use the Velleman K8048 under Windows XP and the older Kits'R'Us K81v4.2 programmer to great effect under DOS.
+						<br><br>
+						<b>Software installation</b>
+						<br><br>
+						The program is written in Assembler or C on a Windows PC under the MPLAB X IDE, or my preference of the Geany editor and gpasm under Linux.
+						The editor/assembler converts the program to machine code .hex file. Using a Windows or DOS PC, the .hex file is written to the internal
+						memory using a PIC programmer via the Serial port (Velleman K8048), Parallel port (Kits'R'Us K81) or the USB port. The chip is then extracted
+						from the programmer and inserted into the project PCB, where it will start immediately on power up. There is no external memory used.
+						<br><br>
+						<b>Books</b>
+						<br><br>
+						Programming and Customising the PIC Microcontroller, McGraw Hill, Mike Predko    *** Highly Recommended ***<br>
+						The PIC Microcontroller - Your Personal Introductory Course, Newnes, John Morton *** Highly Recommended ***<br>
+						123 PIC Microcontroller Experiments for the Evil Genius, TAB Electronics, Mike Predko<br>
+						All books are available at <a href="http://www.bookdepository.co.uk/" target=" blank">The Book Depository, UK</a>
+						<br><br>
+						<b>Links</b>
+						<br><br>
+						PIC Tutorial: <a href="http://www.pages.drexel.edu/~kws23/tutorials/PICTutorial/PICTutorial.html" target=" blank">Drexel PIC Tutorial</a><br>
+						PIC Tutorial: <a href="http://hobbyprojects.com/pic_tutorials/introduction_to_pic.html" target=" blank">Hobby Projects PIC Tutorial</a><br>
+						PIC Programming in Linux: <a href="http://www.micahcarrick.com/pic-programming-linux.html" target=" blank">Micah Carrick</a><br>
+						PIC Programming in Linux: <a href="http://piklab.sourceforge.net/index.php" target=" blank">PikLab</a><br>
+						PIC Projects: <a href="http://www.best-microcontroller-projects.com/pic-projects.html" target=" blank">Best Microcontroller Projects.com</a><br>
+						PIC Simulator in Linux: <a href="http://shareme.com/details/pic-microprocessor-simulator-on-linux.html" target=" blank">ShareMe.com</a>
+						<br><br>
+						<b>My PIC project</b>
+						<br><br>
+						PIC Project: <a href="http://archive.siliconchip.com.au/cms/A_30626/article.html" target=" blank">Silicon Chip 10 channel IR Receiver</a><br>
+						I had to do some corrections to the source file 10-RMOTE.ASM to get it to assemble under gpasm. The capitalisation of constants and variables
+						changed in the text. Conversion of all to to upper case solved this and allowed assembly with the same output as the 10-RMOTE.HEX file.
+						My project was built on a smaller Jaycar PCB and did not use relays. The remote sender was set to 'Satellite 2' to make the receiver work.
+						I found power supplies with ripple caused the unit to malfunction. Use of a regulated power supply or batteries alleviated this. A picture of
+						this unit is found above.
+						<br><br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='micros.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../computers.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+						<br>
+						<hr>
+						
+						<a name="arduino"></a>
+						<heading>
+							The Arduino Microcontroller
+						</heading>
+        				<br><br>
+						<div align="center">
+							<img src="arduino.jpg"><br><b>The Freetronics Eleven Arduino Microcontroller</b>
+						</div>
+						<br>
+						<b>Overview</b>
+						<br><br>
+						To quote the Arduino Home Page: The Arduino microcontroller is an open-source electronics prototyping platform based on flexible,
+						easy-to-use hardware and software. It's intended for artists, designers, hobbyists and anyone interested in creating interactive
+						objects or environments. It was developed in Italy as a means of cheap hardware and software development and now has a huge
+						international support community.
+						<br><br>
+						<b>Hardware</b>
+						<br><br>
+						Jaycar sell the Australian made Freetronics Arduino compatible range:<br>
+						1. <a href="http://www.jaycar.com.au/productView.asp?ID=XC4210" target=" blank">Arduino 11 based on the Arduino Uno</a><br>
+						2. <a href="http://www.jaycar.com.au/productView.asp?ID=XC4222" target=" blank">USB Droid for Android development</a><br>
+						3. <a href="http://www.jaycar.com.au/productView.asp?ID=XC4216" target=" blank">EtherTen for LAN connection</a><br>
+						4. <a href="http://www.jaycar.com.au/productView.asp?ID=XC4256" target=" blank">EtherMega for extra I/O</a><br>
+						5. <a href="http://www.jaycar.com.au/productView.asp?ID=XC4266" target=" blank">Leostick mini USB stick version</a><br>
+						6. <a href="http://www.jaycar.com.au/productView.asp?ID=XC4266" target=" blank">ATMEGA328P chip incl. Uno Bootloader</a><br>
+						7. <a href="http://www.jaycar.com.au/productView.asp?ID=XC4214" target=" blank">Arduino Prototyping Shield</a>							
+						<br><br>
+						Altronics sell a small selection of the original Italian made Arduinos:<br>
+						1. <a href="http://www.altronics.com.au/index.asp?area=item&amp;id=Z6280" target=" blank">Arduino Uno R3</a><br>
+						2. <a href="http://www.altronics.com.au/index.asp?area=item&amp;id=Z6281" target=" blank">Arduino Mega 2560 R3</a><br>
+						3. <a href="http://www.altronics.com.au/index.asp?area=item&amp;id=Z6282" target=" blank">Arduino Ethernet Shield R3</a><br>
+						4. <a href="http://www.altronics.com.au/index.asp?area=item&amp;id=Z6212" target=" blank">Sparkfun FTDI USB to Serial</a>
+						<br><br>
+						Element 14 (Farnell) sell the original Italian made Arduinos, with an interesting mini version:<br>
+						1. <a href="http://au.element14.com/" target=" blank">Element 14</a><br>
+						2. <a href="http://au.element14.com/arduino/a000005/atmega328-arduino-nano-eval-board/dp/1848691" target=" blank">Arduino Nano</a>
+						<br><br>
+						RS Components sell the original Italian made Arduinos:<br>
+						1. <a href="http://australia.rs-online.com/web/" target=" blank">RS Components</a><br>
+						2. <a href="http://australia.rs-online.com/web/c/?sra=oss&amp;r=t&amp;searchTerm=Arduino&amp;x=0&amp;y=0" target=" blank">RS Components Arduino</a>
+						<br><br>
+						All versions except for the EtherMega and the Mega 2560 are well under AUS$100. All are now based on the ATmega328 chip.
+						The boards are complete and operational from the start. They are preinstalled with a small program to flash an onboard LED.
+						For further development a range of plug in Shields (circuit boards) carry various interface components and unpopulated free
+						development areas.
+						<br><br>
+						<b>Specifications</b>
+						<br><br>
+						All Arduinos have at a minimum the ATMEL ATMega328P chip as the CPU. Specifications:<br>
+						CPU: 8 bit AVR, FPU: No, MPU/MMU: No/No, Freq: 20MHz, Operating Voltage (Vcc): 1.8 to 5.5, Temp: -40C +85C,<br>
+						Memory - Flash: 32k bytes, SRAM: 2k bytes, EEPROM: 1024 bytes, DRAM: No, Self Program Memory: Yes,<br>
+						Pin Count: 32, I/O pins: 23, Ext Interrupts: 24, SPI: 2, TWI (I2C): 1, UART: 1, Timers: 3, NAND Interface: No,<br>
+						ADC - channels: 8, Resolution: 10 bits, Speed: 15 ksps, Analog Comparators: 1, PWM Channels: 6, 32kHz RTC: Yes, I2S: No<br>
+						Output Compare channels: 6, Input Capture Channels: 1, Calibrated RC Oscillator: Yes, Debug Interface: debugWIRE<br>
+						External Bus: No, CAN: No, LIN: No, Ethernet: No, Temp Sensor: Yes, Watchdog Timer: Yes, RTC: Counter, picoPower: Yes.<br>
+						Details of the CPU: <a href="http://www.atmel.com/devices/atmega328p.aspx?tab=overview" target=" blank">ATMEL ATMega328P</a>
+						<br><br>
+						<b>Software</b>
+						<br><br>
+						Arduino provides a complete IDE for the Arduino with versions for Linux, Unix, Mac OS-X and Windows. It is free and contains an
+						Editor and a Compiler for the Arduino Programming Language, a simplified version of C based on Wiring which is a cross platform
+						control environment for attaching devices to microcontrollers. All that is required is the installation of the Arduino IDE into
+						a PC. The Linux/Unix versions are available from the system Repositories. The IDE compiles and downloads the program directly
+						to the Arduino via the USB port for immediate execution.
+						<br><br>
+						<b>Links</b>
+						<br><br>
+						Arduino: <a href="http://www.arduino.cc/" target=" blank">Arduino Home Page</a><br>
+						Arduino Software: <a href="http://arduino.cc/en/Main/Software" target=" blank">Arduino IDE Download</a><br>
+						Arduino Get Started: <a href="http://arduino.cc/en/Guide/HomePage" target=" blank">Arduino Guide</a><br>
+						Arduino Questions: <a href="http://arduino.cc/en/Main/FAQ" target=" blank">Arduino FAQ</a><br>
+						Arduino Support: <a href="http://playground.arduino.cc/" target=" blank">Arduino Playground</a><br>
+						Arduino Background: <a href="http://en.wikipedia.org/wiki/Arduino" target=" blank">Arduino on Wikipedia</a><br>
+						Many Arduino projects can be found on the net by Googling 'Arduino Projects'.
+						<br><br>
+						<b>My Arduino Projects</b>
+						<br><br>
+						A Prototyping Shield was wired with an array of 10 LEDs as outputs plus four switches and two potentiomenters as inputs. It was
+						extremely easy to modify an available sketch (C source file) to get the LEDs flashing in sequence plus reading the switch settings
+						and have the voltages on the potentiomenters read by the ADC.
+						<br><br>
+						Another experiment was to mount an Arduino Nano on a small Jaycar PCB and install the software from the Arduino IDE using a
+						SparkFun FTDI Basic Breakout USB to Serial converter. The Arduino Nano is suitable as an embedded controller and is about the size
+						of a large postage stamp.
+						<br><br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='micros.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../computers.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+						<br>
+						<hr>
+						
+						<a name="maximite"></a>
+						<heading>
+							The Maximite Microcomputer
+						</heading>
+        				<br><br>
+						<div align="center">
+							<img src="maximite.jpg"><br><b>The Maximite Colour Microcomputer</b>
+						</div>
+						<br>
+						<b>The Maximite Microcomputer</b><br><br>
+						Australian Geoff Graham designed the original monochrome microcomputer and described it in the March, April and May 2011
+						issues of Silicon Chip magazine. The Colour Maximite was described in the September and October 2012 issues and the
+						MiniMaximite in the November 2011 issue. They use a PS/2 keyboard, 480x432 pixel VGA or 304x216 pixel Composite Monitor,
+						a USB 2.0 port for downloading updates, Audio up to 5khz and an external plug pack for power. An SD memory card is used
+						for external storage of programs written under the preinstalled MMBasic interpreter. The 20 digital/analogue Input/Ouput
+						pins are available on a rear socket. The Colour Maximite also has an extra Arduino style pinout to accept the Arduino
+						shields.
+						<br><br>
+						<b>Hardware</b>
+						<br><br>
+						Jaycar sell the Mini-Maximite:
+						<a href="http://www.jaycar.com.au/productView.asp?ID=KC5505" target=" blank">Mini-Maximite Monochrome</a><br>
+						Altronics sell the three versions:
+						<a href="http://www.altronics.com.au/index.asp?area=item&amp;id=K9550" target=" blank">Maximite Monochrome</a>,
+						<a href="http://www.altronics.com.au/index.asp?area=item&amp;id=K9555" target=" blank">Maximite Colour</a>,
+						<a href="http://www.altronics.com.au/index.asp?area=item&amp;id=K9552" target=" blank">Mini-Maximite Monochrome</a><br>
+						All versions are well under AUS$100.
+						<br><br>
+						The kits are quite easy to build as the surface mount components are already mounted. The Mono take 1.5 hours, The Colour
+						takes 2.0 hours and the Mini only takes 15 minutes. A Maximite Monochrome computer would be the easiest at getting a system
+						up and running. Being a minimalist and do-it-yourself enthusiast, I did all the development on the MiniMaximite and had a
+						lot of fun.<br>
+						<br><br>
+						NB: The MiniMaximite requires a separate 3.3volt regulated supply to operate, unlike other versions with on board
+						supplies. To reduce the 5 volts from the USB input, my home made MiniMaximite support board contains a 3.3volt regulated
+						supply. The LM3940 regulator is available as a 3 lead IC from Jaycar, set up as per an LM7805 pinout and circuit.
+						<a href="http://www.jaycar.com.au/productView.asp?ID=ZV1565" target=" blank">LM3940 3.3V Regulator</a><br>
+						<br><br>
+						<b>Operating Systems</b>
+						<br><br>
+						Basic: A very useful version of MMBasic is pre installed on the chip. Basic is available from from the Geoff Graham Maximite
+						website and can be simply bootloaded for updating or reinstallation. Basic is the best language for usage as a controller.
+						MMBasic is rich with commands to utilise the output ports and is easy to use.
+						<br><br>
+						Unix: Russian Serge Vakulenko wrote the code for the implementation of Micros v2.11 for the PIC-32 microcontrollers. On this
+						website is a complete project based on this operating system:
+						<a href="http://bob-worthington.customer.netspace.net.au/Computer/Micros/Micros.htm" target=" blank">Micros Project</a>
+						<br><br>
+						<b>Software installation</b>
+						<br><br>
+						Be sure to have a look at the Micros Project page to see the programming setup and processes involved for both Unix and Basic.
+						Either operating system is written to the internal memory via the USB port from a PC. The SD card is formatted to accept program
+						files. Basic only requires a blank, formatted SD card whilst Micros requires program files to be added.
+						<br><br>
+						<b>Links</b>
+						<br><br>
+						General Support:
+						<a href="http://geoffg.net/Maximite_Story.html" target=" blank">The Maximite Story</a><br>
+						Interview with Geoff Graham:
+						<a href="http://demin.ws/blog/english/2012/08/07/interview-with-geoff-graham/" target=" blank">Alexander Demin website</a><br>
+						Original monochrome Maximite:
+						<a href="http://geoffg.net/MonoMaximite.html" target=" blank">The Monochrome Maximite</a><br>
+						New Colour Maximite:
+						<a href="http://geoffg.net/maximite.html" target=" blank">The Colour Maximite</a><br>							
+						Monochrome MiniMaximite:
+						<a href="http://geoffg.net/mini-maximite.html" target=" blank">The Mini Maximite</a><br>
+						Maximite MM Basic:
+						<a href="http://mmbasic.com/" target=" blank">Maximite Basic Home Page</a><br>
+						Maximite MM Basic Manual:
+						<a href="http://mmbasic.com/downloads.html" target=" blank">Maximite Basic Manual Download</a><br>
+						<br><br>
+						<b>My Maximite Project</b>
+						<br><br>
+						Micros Unix:
+						<a href="http://bob-worthington.customer.netspace.net.au/Computer/Micros/Micros.htm" target=" blank">Micros Project</a><br>
+						I used a Minimaximite plugged into a home made support board. The board basically supplied 3.3 volt power to the CPU with all the
+						I/O handled via the USB port via PuTTY, a SSH terminal program connecting a PC as a dumb terminal. A Mono or Colour Maximite will
+						perform exactly the same functions.
+						<br><br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='micros.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../computers.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+						<br>
+						<hr>
+						
+						<a name="raspberry"></a>
+						<heading>
+							The Raspberry Pi Microcomputer
+						</heading>
+        				<br><br>
+						<div align="center">
+						<img src="raspberry.jpg"><br><b>The Raspberry Pi Microcomputer</b>
+						</div>
+						<br>
+						<b>The Raspberry Pi Microcomputer</b>
+						<br><br>
+						The Raspberry Pi foundation of the UK created the Raspberry Pi credit card sized single board computer (SBC) to promote computer
+						science education in schools. It has a Broadcom BCM2835 System on a Chip (SoC), which includes a 700MHz ARM processor, VideoCore
+						IV GPU, and has now been upgraded to 512 MBytes of RAM from the previous 256 MBytes. An SD card is used for for booting and
+						storage. The Foundation provides Debian and Arch Linux ARM distributions. Python is the main programming language, with support
+						for BBC BASIC (via RISC OS or the Brandy Basic clone for Linux), C, Java and Perl.
+						<br><br>
+						<b>Hardware</b>
+						<br><br>
+						Element 14 (Farnell):<br>
+						1. <a href="http://au.element14.com/" target=" blank">Element 14</a><br>
+						2. <a href="http://downloads.element14.com/raspberryPi3.html" target=" blank">Raspberry Pi</a><br>
+						<br><br>
+						RS Components:<br>
+						1. <a href="http://australia.rs-online.com/web/" target=" blank">RS Components</a><br>
+						2. <a href="http://australia.rs-online.com/web/generalDisplay.html?id=raspberrypi" target=" blank">Raspberry Pi</a><br>
+						<br><br>
+						<b>Specifications</b>
+						<br><br>
+						System on Chip: Broadcom BCM2835 (CPU, GPU, DSP, and SDRAM), CPU: 700 MHz ARM1176JZF-S core (ARM11 family),<br>
+						GPU: Broadcom VideoCore IV, OpenGL ES 2.0, 1080p30 h.264/MPEG-4 AVC high-profile decoder, SDRAM: 512 Mbytes,<br>
+						Video outputs: Composite RCA & HDMI, Audio out: 3.5 mm jack, HDMI, Onboard storage: SD, MMC, SDIO card slot,<br>
+						Ethernet: 10/100 RJ45 onboard network.<br>
+						Details of the CPU: <a href="http://www.atmel.com/devices/atmega328p.aspx?tab=overview" target=" blank">ATMEL ATMega328P</a><br>
+						<br><br>
+						<b>Operating Systems</b>
+						<br><br>
+						The Raspberry Pi uses Linux operating systems with the OS image pre loaded onto the SD card to boot the CPU. The Foundation
+						created the New Out Of Box System (NOOBS) installer for several Linux distributions, with a preference for Raspbian derived from
+						the ARM hard-float (armhf) version of Debian 7 'Wheezy' Linux. It uses an LXDE desktop optimized for the ARMv6 instruction set
+						of the Raspberry Pi. Have a look at the Micros Project page to see how to install the Linux OS onto the SD card.
+						<br><br>
+						NOOBS makes the following distros available for installation:  Archlinux ARM, OpenELEC, Pidora (Fedora Remix), Raspbmc (a
+						controller for X-Box video), Raspbian (recommended), RISC OS (a version of the original BBC micro OS). A FAT32 formatted 4GB SD
+						card is the recommended minimum storage requirement for the Operating System, languages and any created documents.
+						<br><br>
+						<b>Software</b>
+						<br><br>
+						The Foundation intends to create an application store for program downloads. I would expect the Pi Store to have thousands of the
+						programs available under the Debian system. Raspian comes pre installed with The Midori Internet Browser, Python 3 language, The
+						Python development environment IDLE, Scratch - a graphic based programming language and LXterminal program. Debian preferences
+						adjust the setup for the OS, the Pi Store is a resource for free software and the WiFi setup connects the computer to a wireless
+						network.
+						<br><br>
+						<b>Links</b>
+						<br><br>
+						Raspberry Pi: <a href="http://www.raspberrypi.org/" target=" blank">Raspberry Pi Home Page</a><br>
+						Raspberry Pi OS Software: <a href="http://www.raspberrypi.org/downloads" target=" blank">Raspberry Pi Downloads</a><br>
+						Raspberry Pi Raspbian: <a href="http://www.raspbian.org/" target=" blank">Raspbian Home Page</a><br>
+						Raspberry Pi Get Started: <a href="http://www.designspark.com/knowledge-item/raspberry-pi---getting-started-guide"
+						target=" blank">Raspberry Pi Guide</a><br>
+						Raspberry Pi Resources: <a href="http://www.designspark.com/nodes/view/type:design-centre/slug:raspberry-pi#resources"
+						target=" blank">Raspberry Pi Design Spark</a><br>
+						Raspberry Pi Videos: <a href="http://www.youtube.com/user/RaspberryPiTutorials/videos" target=" blank">Raspberry Pi on You Tube</a><br>
+						Raspberry Pi Background: <a href="http://en.wikipedia.org/wiki/Raspberry_Pi" target=" blank">Raspberry Pi on Wikipedia</a><br>
+						Many Raspberry Pi projects can be found on the net by Googling 'Raspberry Pi Projects'.
+						<br><br>
+						<b>My Raspberry Pi Project</b>
+						</p>
+						<div align="center">
+							<img src="raspbian.jpg"><br><br>Raspberry Pi running Raspbian
+						</div>
+						<p>
+						I originally used the Raspberry Pi as a video controller for the X Box video system by installing RaspBMC. After fiddling around
+						for a few hours I reverted to the Raspbian distro which emulates my bigger Linux Boxes. Due to familiarity with Ubuntu linux, also
+						a Debian derivative, I had no trouble with the system. The LXDE desktop is easy to use and becomes second nature.
+						<br><br>
+						This setup would be an ideal first Linux machine for a child. If anything goes wrong it would be easy to reinstall the software,
+						without the threat of corrupting the family PC. Opportunities would be available for learning Programming on Python or trying text
+						only control of the computer using LXterminal.
+						<br><br>
+						<div align="center">
+							<button80red type="button" onclick="window.location.href='micros.html'; "/>TOP</button80red>
+							<button80red type="button" onclick="window.location.href='../computers.html'; "/>MAIN</button80red>
+							<button80red type="button" onclick="window.location.href='../../index-2.html'; "/>HOME</button80red>
+      				</div>
+						<br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+
+<!-- Mirrored from bob-worthington.org/computers/micros/micros.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2024 07:59:17 GMT -->
+</html>
