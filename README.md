@@ -1,5 +1,5 @@
 # Worthington's Workshop
-A archive copy of the best site on the interwebs: 
+An archive copy of the best site on the interwebs: 
 
 > [Worthington's Workshop](https://bob-worthington.org)
 > 
